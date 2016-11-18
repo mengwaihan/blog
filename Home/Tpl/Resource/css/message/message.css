@@ -1,0 +1,171 @@
+.ou-body{
+	margin: 0 auto;
+	width: 100%;
+	/*background: url(../../images/jotting/background.png);*/
+	background-repeat:repeat ;
+}
+.head{
+	margin: 0 auto 30px;
+    width: 1020px;
+    height: 150px;
+    background-color: #ffffff;
+	display: -webkit-flex;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    transition: all 0.2s ease-in-out;
+}
+.head:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    cursor: pointer;
+}
+.message{
+	display: block;
+	width: 100%;
+	padding-bottom: 30px;
+}
+.message-content{
+	display: block;
+	padding-bottom: 30px;
+	margin: 0 auto;
+    width: 980px;
+	background: #fff;
+	padding-left: 10px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	position: relative;
+}
+.title{
+	/*border-bottom: 2px solid #dddddd;*/
+    display: block;
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    width: 70%;
+    margin-top: 10px;
+}
+.title .span{
+	display: block;
+	float: left;
+}
+.content{
+	display: block;
+	float: left;
+	width: 70%;
+	border-bottom: 2px solid #dddddd;
+	padding: 10px 0;
+}
+.content .name{
+	display: block;
+	float: left;
+	width: 100%;
+}
+.content .ipc{
+	display: block;
+	float: left;
+	width: 100%;
+}
+.content .time{
+	display: block;
+	float: left;
+	width: 100%;
+}
+/*评论*/
+.comment{
+	display: block;
+	float: left;
+}
+.comment-title{
+	display: block;
+	float: left;
+	width: 70%;
+	margin: 10px 0;
+}
+.comment-act{
+	display: block;
+	float: left;
+}
+.comment-act .comment-span{
+	display: block;
+	float: left;
+	font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+}
+.comment-act>textarea{
+	background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    font-size: 14px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    display: block;
+	float: left;
+	margin: 7px 0;
+}
+
+.comment-act>textarea:focus{
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+	border-color: #66afe9;
+	outline: 0 none;
+}
+.comment-sub{
+	display: block;
+	float: left;
+	width: 100%;
+}
+.cname{
+	background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    font-size: 14px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    margin-right: 10px;
+}
+.cname:focus{
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+	border-color: #66afe9;
+	outline: 0 none;
+}
+/*时钟*/
+.clock{
+	display: block;
+	position: absolute;
+    right: 40px;
+    top: 20px;
+}
+/*留言*/
+.message-reply{
+	background: #fff none repeat scroll 0 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    display: block;
+    /*margin: 0 auto;*/
+   	float: left;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    position: relative;
+    width: 980px;
+    position: absolute;
+    left: 50%;
+    margin-left: -490px;
+}
+.message-reply-content{
+	 border-bottom: 1px solid #dddddd;
+    display: block;
+    float: left;
+    padding: 20px 0;
+    width: 97%;
+}
+.message-wrap{
+	display: block;
+	float: left;
+	width: 100%;
+	/*background: url(../../images/jotting/background.png);*/
+	position: relative;
+}
+.message-name{
+	color: #0C80BA;
+}

@@ -1,0 +1,116 @@
+p,
+a,
+span,
+label {
+	font-family: "微软雅黑";
+}
+
+.ou-body {
+	margin: 0 auto;
+	width: 100%;
+	/*background: url('../../images/jotting/background.png');*/
+	background-repeat: repeat;
+	padding-bottom: 30px;
+	background-color: #ffffff;
+}
+
+.head {
+	margin: 0 auto 30px;
+	width: 1020px;
+	height: 150px;
+	background-color: #ffffff;
+	display: -webkit-flex;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	transition: all 0.2s ease-in-out;
+}
+
+.head:hover {
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	cursor: pointer;
+}
+
+.content-top {
+	display: block;
+	float: left;
+	/*margin: 0 auto;*/
+	width: 100%;
+}
+
+.content-top img {
+	width: 100%;
+}
+
+.content-wrap {
+	width: 1210px;
+	margin: 0 auto;
+	display: block;
+}
+
+.content-title {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	float: left;
+}
+
+.content-title span {
+	margin: 0 auto;
+	font-size: 30px;
+	font-family: cursive;
+}
+
+.content-wrap p {
+	width: 605px;
+	display: block;
+	float: left;
+	margin-top: 20px;
+}
+
+.content-p {
+	display: block;
+	float: left;
+	width: 605px;
+}
+
+.content-pic {
+	display: block;
+	float: left;
+	width: 605px;
+	text-align: center;
+	padding-top: 115px;
+}
+.content-pic2 {
+	display: block;
+	float: left;
+	width: 605px;
+	text-align: center;
+	padding-top: 100px;
+}
+.content-pic3{
+	display: block;
+	float: left;
+	width: 605px;
+	text-align: center;
+	padding-top: 155px;
+}
+
+.content-pic img {
+	width: 500px;
+	height: 300px;
+}
+.content-pic2 img {
+	width: 456px;
+	height: 233px;
+}
+.content-pic3 img {
+	width: 550px;
+	height: 180px;
+}
+.content-out{
+	display: block;
+	float: left;
+	width: 100%;
+	padding-bottom: 80px;
+	background-color: #ffffff;
+}

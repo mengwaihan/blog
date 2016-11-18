@@ -1,0 +1,133 @@
+.ou-body{
+	margin: 0 auto;
+	width: 100%;
+	/*background-color: #ffffff;*/
+	background: url(../../images/jotting/background.png);
+	background-repeat:repeat ;
+}
+.head{
+	margin: 0 auto;
+    width: 1020px;
+    height: 150px;
+    background-color: #ffffff;
+	display: -webkit-flex;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    transition: all 0.2s ease-in-out;
+}
+.head:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    cursor: pointer;
+}
+.content{
+	display: block;
+	float: left;
+	width: 100%;
+	/*background-color: #ffffff;*/
+}
+.chapter{
+	display: block;
+	 margin: 30px auto 0;
+    width: 980px;
+}
+.chapter .pic,
+.chapter img,
+.chapter .txt{
+	display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.chapter .txt{
+	text-align: center;
+	margin: 30px 0;
+}
+.chapter .txt span{
+	display: block;
+	margin: 0 auto;
+	color: #1abc9c;
+    padding-bottom: 9px;
+}
+/*.chapter .txt a{
+	display: block;
+	margin: 0 auto;
+	color: #303030;
+    padding-bottom: 9px;
+     font-size: 18px;
+    font-weight: 800;
+}*/
+.chapter .txt label{
+	display: block;
+	margin: 0 auto;
+	color: #9D9D9D;
+	width: 580px;
+	font-weight: 700;
+}
+/*轮播*/
+.pic #myCarousel .carousel-control.right,
+.pic #myCarousel .carousel-control.left{
+	background-image:none;
+}
+.pic #myCarousel .carousel-control{
+	top: 30%;
+	font-size: 108px;
+}
+/*底部*/
+.foot{
+	 border-top: 2px solid #dddddd;
+    display: block;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.foot span{
+	 color: #000000;
+    display: block;
+    margin: 30px auto 0;
+} 
+.foot img{
+    display: block;
+    margin: 30px auto 0;
+} 
+.foot label{
+	color: #737373;
+    display: block;
+    margin:0 auto;
+	margin-top: 30px;
+} 
+/*添加随笔*/
+.message-name{
+	display: block;
+margin: 0 auto;
+color: #9D9D9D;
+width: 580px;
+font-size: 14px;
+font-weight: 700;
+}
+.txt-title{
+	display: block;
+	margin: 0 auto;
+	color: #303030;
+    padding-bottom: 9px;
+     font-size: 18px;
+    font-weight: 800;
+    
+}
+.jotting-edit,
+.jotting-del{
+	display: block;
+	float: left;
+	/*width: 30px;*/
+	margin-right: 10px;
+}
+.acp{
+	display: block;
+float: left;
+width: 100%;
+margin-bottom: 20px;
+}
+.chap-wrap{
+	display: block;
+	float: left;
+	width: 100%;
+}

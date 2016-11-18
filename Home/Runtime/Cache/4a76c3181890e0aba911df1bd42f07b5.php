@@ -1,0 +1,992 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="cn">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="keywords" content="个人网站">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>个人网站</title>
+
+		<link rel="stylesheet" type="text/css" href="<?php echo C('Url');?>css/Article/article.css"></link>
+		<link rel="stylesheet" type="text/css" href="<?php echo C('Url');?>css/Article/chocolat.css"></link>
+		<link rel="stylesheet" type="text/css" href="<?php echo C('Url');?>css/Article/flexslider.css"></link>
+		<link rel="stylesheet" type="text/css" href="<?php echo C('Url');?>css/Article/style.css"></link>
+		<link rel="stylesheet" type="text/css" href="<?php echo C('Url');?>css/public/public.css"></link>
+		<link rel="stylesheet" type="text/css" href="<?php echo C('Url');?>css/public/bootstrap.min.css"></link>
+		<link rel="stylesheet" type="text/css" href="<?php echo C('Url');?>css/public/bootstrap-theme.min.css"></link>
+
+	</head>
+
+	<body>
+
+		<div class="ou-body">
+			<div class="head">
+				<div id='container'>
+					<nav>
+						<ul>
+							<li>
+								<a href='__APP__/Index/index' title='博客首页'>博客首页</a>
+							</li>
+							<li>
+								<a href='#' title='精彩专题'>精彩专题</a>
+							</li>
+							<li>
+								<a href='__APP__/Index/jotting' title='心情日志'>心情日志</a>
+							</li>
+							<li>
+								<a href='__APP__/Index/message' title='留言板'>留言板</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+			<div class="history">
+				<div class="history-hd">
+					<h3>计算机学科分支</h3>
+				</div>
+				<div class="history-bd">
+					<span class="devide-line"></span>
+
+					<div class="history-bdleft">
+						<img src="<?php echo C('Url');?>images/article/12.jpg" />
+					</div>
+					<div class="history-bdright">
+						<h4>算法</h4>
+					</div>
+
+					<div class="history-secbdleft">
+						<h4>数据库</h4>
+					</div>
+					<div class="history-secbdright">
+						<img src="<?php echo C('Url');?>images/article/13.jpg" />
+					</div>
+
+					<div class="history-thrbdleft">
+						<img src="<?php echo C('Url');?>images/article/14.jpg" />
+					</div>
+					<div class="history-thrbdright">
+						<h4>图形和交互</h4>
+					</div>
+
+					<div class="history-forbdleft">
+						<h4>人工智能</h4>
+					</div>
+					<div class="history-forbdright">
+						<img src="<?php echo C('Url');?>images/article/15.jpg" />
+					</div>
+
+					<div class="history-fivbdleft">
+						<img src="<?php echo C('Url');?>images/article/12.jpg" />
+					</div>
+					<div class="history-fivbdright">
+						<h4>嵌入式</h4>
+					</div>
+
+					<div class="history-sixbdleft">
+						<h4>信息安全</h4>
+					</div>
+					<div class="history-sixbdright">
+						<img src="<?php echo C('Url');?>images/article/13.jpg" />
+					</div>
+
+				</div>
+			</div>
+
+			<div class="banner">
+				<img src="<?php echo C('Url');?>images/article/code/nav.png" />
+			</div>
+
+			<div class="title">
+
+				<ul id="myTab" class="nav nav-tabs">
+					<li class="active">
+						<a href="#home" data-toggle="tab">编程语言</a>
+					</li>
+					<li>
+						<a href="#ios" data-toggle="tab">数据库</a>
+					</li>
+					<li>
+						<a href="#pic" data-toggle="tab">图形交互</a>
+					</li>
+
+				</ul>
+				<div id="myTabContent" class="tab-content">
+					
+					<div class="tab-pane fade in active" id="home">
+						<div class="plist-main">
+							<div class="content">
+
+								<div class="left">
+									<div class="left-top back">
+										<img src="<?php echo C('Url');?>images/article/code/1.png" />
+										<div class="left-top-nav-content">
+										</div>
+										<span>汇编语言</span>
+										<label>
+											语言详情
+										</label>
+										<p>· 数据传送指令</p>
+										<p class="p-lg">· 整数和逻辑运算指令</p>
+										<p class="p-lg">· 移位指令</p>
+									</div>
+									<div class="integral">
+										<!--<span>积</span>
+										<label>1288</label>-->
+										<a>查看详情</a>
+									</div>
+									<div class="fixed-left-botton">
+										<a>
+											<img src="<?php echo C('Url');?>images/article/code/1-1.png" />
+										</a>
+										<a>
+											<img src="<?php echo C('Url');?>images/article/code/1-2.png" />
+										</a>
+										<a>
+											<img src="<?php echo C('Url');?>images/article/code/1-3.png" />
+										</a>
+									</div>
+								</div>
+								<div class="left top-middle">
+									<div class="left-top back2">
+										<img src="<?php echo C('Url');?>images/article/code/2.png" />
+										<div class="left-top-nav-content-1">
+										</div>
+										<span>桌面程序</span>
+										<label>
+											语言详情
+										</label>
+										<p>· Java</p>
+										<p class="p-lg">· C++</p>
+										<p class="p-lg">· VB</p>
+									</div>
+									<div class="integral">
+										<!--<span>积</span>
+										<label>1288</label>-->
+										<a>查看详情</a>
+									</div>
+									<div class="fixed-left-botton">
+										<a>
+											<img src="<?php echo C('Url');?>images/article/code/2-1.png" />
+										</a>
+										<a>
+											<img src="<?php echo C('Url');?>images/article/code/2-2.png" />
+										</a>
+										<a>
+											<img src="<?php echo C('Url');?>images/article/code/2-3.png" />
+										</a>
+									</div>
+								</div>
+								<div class="left">
+									<div class="left-top back3">
+										<img src="<?php echo C('Url');?>images/article/code/3.png" />
+										<div class="left-top-nav-content-2">
+										</div>
+										<span>网站服务器端开发</span>
+										<label>
+											语言详情
+										</label>
+										<p>· JSP</p>
+										<p class="p-lg">· PHP</p>
+										<p class="p-lg">· ASP</p>
+									</div>
+									<div class="integral">
+										<!--<span>积</span>
+										<label>1288</label>-->
+										<a>查看详情</a>
+									</div>
+									<div class="fixed-left-botton">
+										<a>
+											<img src="<?php echo C('Url');?>images/article/code/3-1.png" />
+										</a>
+										<a>
+											<img src="<?php echo C('Url');?>images/article/code/3-2.png" />
+										</a>
+										<a>
+											<img src="<?php echo C('Url');?>images/article/code/3-3.png" />
+										</a>
+									</div>
+								</div>
+
+								<div class="left">
+									<div class="left-top back4">
+										<img src="<?php echo C('Url');?>images/article/code/4.png" />
+										<a href='__APP__/Index/detailes.html' target="_blank"><div class="left-top-nav-content-3">
+										</div></a>
+										<span>网站客户端</span>
+										<label>
+											语言详情
+										</label>
+										<p>· HTML</p>
+										<p class="p-lg">· CSS</p>
+										<p class="p-lg">· Javascript</p>
+									</div>
+									<div class="integral">
+										<!--<span>积</span>
+										<label>1288</label>-->
+										<a href='__APP__/Index/detailes.html' target="_blank">查看详情</a>
+									</div>
+									<div class="left-botton">
+										<input class="left" type="button" value="" />
+										<input class="right" type="button" value="" />
+										<ul>
+											<li>
+												<a href='__APP__/Index/detailes' target="_blank">
+													<img src="<?php echo C('Url');?>images/article/code/4-5.png" />
+												</a>
+											</li>
+											<li>
+												<a href='__APP__/Index/detailes' target="_blank">
+													<img src="<?php echo C('Url');?>images/article/code/4-2.png" />
+												</a>
+											</li>
+											<li>
+												<a href='__APP__/Index/detailes' target="_blank">
+													<img src="<?php echo C('Url');?>images/article/code/4-3.png" />
+												</a>
+											</li>
+											<li>
+												<a href='__APP__/Index/detailes' target="_blank">
+													<img src="<?php echo C('Url');?>images/article/code/4-1.png" />
+												</a>
+											</li>
+											<li>
+												<a href='__APP__/Index/detailes' target="_blank">
+													<img src="<?php echo C('Url');?>images/article/code/4-4.png" />
+												</a>
+											</li>
+											<li>
+												<a href='__APP__/Index/detailes' target="_blank">
+													<img src="<?php echo C('Url');?>images/article/code/4-2.png" />
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="left top-middle">
+									<div class="left-top back5">
+										<img src="<?php echo C('Url');?>images/article/code/5.png" />
+										<div class="left-top-nav-content-4">
+										</div>
+										<span>智能手机程序</span>
+										<label>
+											语言详情
+										</label>
+										<p>· 安卓使用Java</p>
+										<p class="p-lg">· iPhone使用Objective-C</p>
+									</div>
+									<div class="integral">
+										<!--<span>积</span>
+										<label>1288</label>-->
+										<a>查看详情</a>
+									</div>
+									<div class="left-botton">
+										<input class="left" type="button" value="" />
+										<input class="right" type="button" value="" />
+										<ul>
+											<li>
+												<a>
+													<img src="<?php echo C('Url');?>images/article/code/5-6.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													<img src="<?php echo C('Url');?>images/article/code/5-2.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/code/5-3.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/code/5-1.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/code/5-4.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/code/5-5.png" />
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="left">
+									<div class="left-top back6">
+										<img src="<?php echo C('Url');?>images/article/code/6.png" />
+										<div class="left-top-nav-content-5">
+										</div>
+										<span>多功能脚本程序</span>
+										<label>
+											语言详情
+										</label>
+										<p>· Python</p>
+										<p class="p-lg">· Perl</p>
+										<p class="p-lg">· Ruby</p>
+									</div>
+									<div class="integral">
+										<!--<span>积</span>
+										<label>1288</label>-->
+										<a>查看详情</a>
+									</div>
+									<div class="left-botton">
+										<input class="left" type="button" value="" />
+										<input class="right" type="button" value="" />
+										<ul>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/code/6-1.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/code/6-2.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/code/6-3.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/code/6-4.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/code/6-5.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/code/6-1.png" />
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+
+					<div class="tab-pane fade" id="ios">
+						<div class="plist-main">
+							<div class="content">
+
+								<div class="left">
+									<div class="left-top back">
+										<img src="<?php echo C('Url');?>images/article/database/1.png" />
+										<div class="left-top-nav-content">
+										</div>
+										<span>Oracle数据库</span>
+										<label>
+											套装详情
+										</label>
+										<p>· 数据库特点</p>
+										<p class="p-lg">· 数据库支持平台</p>
+										<p class="p-lg">· 数据库管理及开发工具</p>
+									</div>
+									<div class="integral">
+										<!--<span>积</span>
+										<label>1288</label>-->
+										<a>查看详情</a>
+									</div>
+									<div class="fixed-left-botton">
+										<a>
+											 
+											<img src="<?php echo C('Url');?>images/article/database/1-1.png" />
+										</a>
+										<a>
+											 
+											<img src="<?php echo C('Url');?>images/article/database/1-2.png" />
+										</a>
+										<a>
+											 
+											<img src="<?php echo C('Url');?>images/article/database/1-3.png" />
+										</a>
+									</div>
+								</div>
+								<div class="left top-middle">
+									<div class="left-top back2">
+										<img src="<?php echo C('Url');?>images/article/database/2.png" />
+										<div class="left-top-nav-content-1">
+										</div>
+										<span>SQL数据库</span>
+										<label>
+											套装详情
+										</label>
+										<p>· microsoft sql server体系</p>
+										<p class="p-lg">· microsoft sql server性能参数</p>
+										<p class="p-lg">· microsoft sql server版本</p>
+									</div>
+									<div class="integral">
+										<!--<span>积</span>
+										<label>1288</label>-->
+										<a>查看详情</a>
+									</div>
+									<div class="fixed-left-botton">
+										<a>
+											 
+											<img src="<?php echo C('Url');?>images/article/database/2-1.png" />
+										</a>
+										<a>
+											 
+											<img src="<?php echo C('Url');?>images/article/database/2-2.png" />
+										</a>
+										<a>
+											 
+											<img src="<?php echo C('Url');?>images/article/database/2-3.png" />
+										</a>
+									</div>
+								</div>
+								<div class="left">
+									<div class="left-top back3">
+										<img src="<?php echo C('Url');?>images/article/database/3.png" />
+										<div class="left-top-nav-content-2">
+										</div>
+										<span>Access数据库</span>
+										<label>
+											套装详情
+										</label>
+										<p>· Microsoft Office Access特性</p>
+										<p class="p-lg">· Microsoft Office Access优缺点</p>
+									</div>
+									<div class="integral">
+										<!--<span>积</span>
+										<label>1288</label>-->
+										<a>查看详情</a>
+									</div>
+									<div class="fixed-left-botton">
+										<a>
+											 
+											<img src="<?php echo C('Url');?>images/article/database/3-1.png" />
+										</a>
+										<a>
+											 
+											<img src="<?php echo C('Url');?>images/article/database/3-2.png" />
+										</a>
+										<a>
+											 
+											<img src="<?php echo C('Url');?>images/article/database/3-3.png" />
+										</a>
+									</div>
+								</div>
+
+								<div class="left">
+									<div class="left-top back4">
+										<img src="<?php echo C('Url');?>images/article/database/4.png" />
+										<div class="left-top-nav-content-3">
+										</div>
+										<span>MySQL</span>
+										<label>
+											套装详情
+										</label>
+										<p>· 系统特性</p>
+										<p class="p-lg">· 索引功能</p>
+										<p class="p-lg">· 安装及使用</p>
+									</div>
+									<div class="integral">
+										<!--<span>积</span>
+										<label>1288</label>-->
+										<a>查看详情</a>
+									</div>
+									<div class="left-botton">
+										<input class="left" type="button" value="" />
+										<input class="right" type="button" value="" />
+										<ul>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/database/4-1.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/database/4-2.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/database/4-3.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/database/4-1.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/database/4-2.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/database/4-3.png" />
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="left top-middle">
+									<div class="left-top back5">
+										<img src="<?php echo C('Url');?>images/article/database/5.png" />
+										<div class="left-top-nav-content-4">
+										</div>
+										<span>大数据分析</span>
+										<label>
+											套装详情
+										</label>
+										<p class="p-mdc">1. 大数据处理之一：采集大数据的采集是指利用多个数据库来接收发自客户端（Web、Ap...2. 大数据处理之二：导入/预处理虽然采集端本身会有很多数据库，但是如果要对这些海...
+
+										</p>
+									</div>
+									<div class="integral">
+										<!--<span>积</span>
+										<label>1288</label>-->
+										<a>查看详情</a>
+									</div>
+									<div class="left-botton">
+										<input class="left" type="button" value="" />
+										<input class="right" type="button" value="" />
+										<ul>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/database/5-1.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/database/5-2.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/database/5-3.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/database/5-1.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/database/5-2.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/database/5-3.png" />
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="left">
+									<div class="left-top back6">
+										<img src="<?php echo C('Url');?>images/article/database/6.png" />
+										<div class="left-top-nav-content-5">
+										</div>
+										<span>关系型数据库</span>
+										<label>
+											套装详情
+										</label>
+										<p class="p-mdc">关系数据库，是建立在关系模型基础上的数据库，借助于集合代数等数学概念和方法来处理数据库中的数据。现实世界中的各种实体以及
+										</p>
+									</div>
+									<div class="integral">
+										<!--<span>积</span>
+										<label>1288</label>-->
+										<a>查看详情</a>
+									</div>
+									<div class="left-botton">
+										<input class="left" type="button" value="" />
+										<input class="right" type="button" value="" />
+										<ul>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/database/6-1.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/database/6-2.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/database/6-3.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/database/6-1.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/database/6-2.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/database/6-3.png" />
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+					
+					<div class="tab-pane fade" id="pic">
+						<!--<p>jMeter 是一款开源的测试软件。它是 100% 纯 Java 应用程序，用于负载和性能测试。</p>-->
+						<div class="plist-main">
+							<div class="content">
+
+								<div class="left">
+									<div class="left-top back">
+										<img src="<?php echo C('Url');?>images/article/graphical/1.png" />
+										<div class="left-top-nav-content">
+										</div>
+										<span>photoshop</span>
+										<label>
+											套装详情
+										</label>
+										<p class="p-mdc">Photoshop主要处理以像素所构成的数字图像。使用其众多的编修与绘图工具，可以有效地进行图片编辑工作。ps有很多功能，在图像、图形、文字、视频、出版等各</p>
+									</div>
+									<div class="integral">
+										<!--<!--<span>积</span>
+										<label>1288</label>-->-->
+										<a>查看详情</a>
+									</div>
+									<div class="fixed-left-botton">
+										<a>
+											 
+											<img src="<?php echo C('Url');?>images/article/graphical/1-1.png" />
+										</a>
+										<a>
+											 
+											<img src="<?php echo C('Url');?>images/article/graphical/1-2.png" />
+										</a>
+										<a>
+											 
+											<img src="<?php echo C('Url');?>images/article/graphical/1-3.png" />
+										</a>
+									</div>
+								</div>
+								<div class="left top-middle">
+									<div class="left-top back2">
+										<img src="<?php echo C('Url');?>images/article/graphical/2.png" />
+										<div class="left-top-nav-content-1">
+										</div>
+										<span>Flash</span>
+										<label>
+											套装详情
+										</label>
+										<p class="p-mdc">Flash是由macromedia公司推出的交互式矢量图和 Web 动画的标准，由Adobe公司收购。做Flash动画的人被称之为闪客。网页设计者使用 Flash 创作</p>
+									</div>
+									<div class="integral">
+										<!--<span>积</span>
+										<label>1288</label>-->
+										<a>查看详情</a>
+									</div>
+									<div class="fixed-left-botton">
+										<a>
+											 
+											<img src="<?php echo C('Url');?>images/article/graphical/2-1.png" />
+										</a>
+										<a>
+											 
+											<img src="<?php echo C('Url');?>images/article/graphical/2-2.png" />
+										</a>
+										<a>
+											 
+											<img src="<?php echo C('Url');?>images/article/graphical/2-3.png" />
+										</a>
+									</div>
+								</div>
+								<div class="left">
+									<div class="left-top back3">
+										<img src="<?php echo C('Url');?>images/article/graphical/3.png" />
+										<div class="left-top-nav-content-2">
+										</div>
+										<span>Adobe Illustrator</span>
+										<label>
+											套装详情
+										</label>
+										<p>· 主要功能</p>
+										<p class="p-lg">· 配置要求</p>
+										<p class="p-lg">· 常用快捷键</p>
+									</div>
+									<div class="integral">
+										<!--<span>积</span>
+										<label>1288</label>-->
+										<a>查看详情</a>
+									</div>
+									<div class="fixed-left-botton">
+										<a>
+											 
+											<img src="<?php echo C('Url');?>images/article/graphical/3-1.png" />
+										</a>
+										<a>
+											 
+											<img src="<?php echo C('Url');?>images/article/graphical/3-2.png" />
+										</a>
+										<a>
+											 
+											<img src="<?php echo C('Url');?>images/article/graphical/3-3.png" />
+										</a>
+									</div>
+								</div>
+
+								<div class="left">
+									<div class="left-top back4">
+										<img src="<?php echo C('Url');?>images/article/graphical/4.png" />
+										<div class="left-top-nav-content-3">
+										</div>
+										<span>pagemaker</span>
+										<label>
+											套装详情
+										</label>
+										<p>· 文本块的编辑</p>
+										<p class="p-lg">· 色彩管理系统</p>
+										<p class="p-lg">· 网络讨论大全</p>
+									</div>
+									<div class="integral">
+										<!--<span>积</span>
+										<label>1288</label>-->
+										<a>查看详情</a>
+									</div>
+									<div class="left-botton">
+										<input class="left" type="button" value="" />
+										<input class="right" type="button" value="" />
+										<ul>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/graphical/4-1.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/graphical/4-2.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/graphical/4-3.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/graphical/4-4.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/graphical/4-5.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/graphical/4-6.png" />
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="left top-middle">
+									<div class="left-top back5">
+										<img src="<?php echo C('Url');?>images/article/graphical/5.png" />
+										<div class="left-top-nav-content-4">
+										</div>
+										<span>adobe premiere</span>
+										<label>
+											套装详情
+										</label>
+										<p>视频处理</p>
+										<p class="p-lg">剪辑技巧</p>
+										<p class="p-lg">过渡的运用</p>
+										<p class="p-lg">音频处理步骤</p>
+									</div>
+									<div class="integral">
+										<!--<span>积</span>
+										<label>1288</label>-->
+										<a>查看详情</a>
+									</div>
+									<div class="left-botton">
+										<input class="left" type="button" value="" />
+										<input class="right" type="button" value="" />
+										<ul>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/graphical/5-1.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/graphical/5-2.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/graphical/5-3.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/graphical/5-4.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/graphical/5-5.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/graphical/5-6.png" />
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="left">
+									<div class="left-top back6">
+										<img src="<?php echo C('Url');?>images/article/graphical/6.png" />
+										<div class="left-top-nav-content-5">
+										</div>
+										<span>CorelDRAW</span>
+										<label>
+											套装详情
+										</label>
+										<p class="p-mdc">CorelDRAW Graphics Suite是加拿大Corel公司的平面设计软件；该软件是Corel公司出品的矢量图形制作工具软件，这个图形工具给设计师提供了矢量动画、页面设计、网
+										</p>
+									</div>
+									<div class="integral">
+										<!--<span>积</span>
+										<label>1288</label>-->
+										<a>查看详情</a>
+									</div>
+									<div class="left-botton">
+										<input class="left" type="button" value="" />
+										<input class="right" type="button" value="" />
+										<ul>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/graphical/6-1.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/graphical/6-2.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/graphical/6-3.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/graphical/6-4.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/graphical/6-5.png" />
+												</a>
+											</li>
+											<li>
+												<a>
+													 
+													<img src="<?php echo C('Url');?>images/article/graphical/6-6.png" />
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			
+
+		</div>
+
+		<div class="clear"></div>
+
+		<div id="top">
+			<div id="top_div" onclick="scrollTo(0)"></div>
+		</div>
+		<!--header start here-->
+	</body>
+	<script src="<?php echo C('Url');?>js/public/jquery-1.10.2.min.js"></script>
+	<script src="<?php echo C('Url');?>js/public/bootstrap.min.js"></script>
+	<script src="<?php echo C('Url');?>js/article/article.js"></script>
+	<script src="<?php echo C('Url');?>js/index/index.js"></script>
+
+</html>

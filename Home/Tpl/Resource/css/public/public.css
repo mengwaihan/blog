@@ -1,0 +1,195 @@
+@charset "gb2312";
+/* CSS Document */
+
+body,
+td,
+th {
+	font-size: 12px;
+	color: #f2f2f2;
+	font-family: "微软雅黑";
+}
+body {
+	background-color: #f2f2f2;
+	
+	background: url("../../images/index/background.gif");
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(text.txt);
+	background-attachment: fixed;
+	font-family: "微软雅黑";
+}
+a{
+	cursor: pointer;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #EDA4A2;
+}
+a:active {
+	text-decoration: none;
+}
+p,
+div,
+ul,
+li,
+h1 {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+.clear {
+	clear: both;
+}
+
+/*菜单*/
+
+#container {
+	/*background-color: #f2f2f2;*/
+	display: block;
+	float: left;
+	overflow: hidden;
+	width: 100%;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+nav {
+	left: 50%;
+	margin: 0 auto;
+	margin-left: -540px;
+	padding: 25px 0;
+	position: relative;
+	width: 100%;
+	min-width: 1080px;
+}
+nav ul {
+	position: realtive;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+nav ul li {
+	display: block;
+	float: left;
+	width: 270px;
+}
+nav ul li a {
+	position: relative;
+	height: 40px;
+	margin: 25px;
+	display: inline-block;
+	font-size: 35pt;
+	color: #7d7d7d;
+	font-weight: 900;
+	line-height: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav ul li a:before,
+nav ul li a:after {
+	content: attr(title);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	-webkit-transition: 300ms ease;
+	transition: 300ms ease;
+	color: #cd5555;
+}
+nav:nth-child(1) {
+	/*background: #FA8072;*/
+}
+nav:nth-child(1) a:before,
+nav:nth-child(1) a:after {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition-property: opacity, visibility, -webkit-transform;
+	transition-property: opacity, visibility, transform;
+}
+nav:nth-child(1) a:before {
+	-webkit-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+	transform: translateX(-100%);
+}
+nav:nth-child(1) a:after {
+	-webkit-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	transform: translateX(100%);
+}
+nav:nth-child(1) a:hover:before,
+nav:nth-child(1) a:hover:after {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+}
+/*回到顶部*/
+#top{
+    display: block;
+    position: fixed;
+    bottom: 15%;
+    right: 30px;
+    display: block;
+    width: 40px;
+    z-index: 1000;
+}
+#top span{
+    display: none;
+    float: left;
+    /*width: 40px;*/
+    /*height: 40px;*/
+    /*margin-bottom: 2px;*/
+}
+#top #top_div{
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 2px;
+    position: relative;
+}
+#top_div:hover {
+    background: url(../../images/jotting/mouseover.png) no-repeat;
+    background-size: 40px 40px;
+}
+#top #top_div img{
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+#top #top_div .none{
+    display: none;
+    position: absolute;
+    right: 100%;
+    top: 40px;
+    width: 163px;
+    height: 163px;
+}
+#top_div {
+    background: url(../../images/jotting/top.png) no-repeat;	
+    background-size: 40px 40px;
+    z-index: 1000;
+
+}
