@@ -1,2 +1,2 @@
 # blog
-this is a blog for chenchao
+this is a blog
