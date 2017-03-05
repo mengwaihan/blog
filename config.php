@@ -9,4 +9,5 @@ return array(
 
 	'DB_PREFIX'=>'a_', // 数据表前缀 
    'DB_PORT' => '3306', // 端口
+   'WORK_PATH' => dirname(__FILE__) . '/',
 );?>  

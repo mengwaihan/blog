@@ -133,7 +133,7 @@
 					<if condition="$vo.tiaoshu eq 1">
 					<volist name="vo.piclists" key="k" id="v">
 						<div class="pic">
-							<img src="/{$v}" />				
+							<img src="{:C('WORK_PATH') . $v}" />				
 						</div>
 					</volist>
 					<else />
